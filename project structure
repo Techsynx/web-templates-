@@ -1,0 +1,24 @@
+project/
+├── src/
+│   ├── main/
+│       ├── java/
+│           ├── com.example.project/
+│               ├── App.java (Main application file)
+│               ├── AdminController.java (Controller for admin panel)
+│               ├── UserController.java (Handles user actions like login/signup)
+│               ├── RecordService.java (Service logic for records)
+│               └── RecordRepository.java (Data access layer)
+│   ├── resources/
+│       ├── templates/
+│           ├── home.html
+│           ├── about.html
+│           ├── contact.html
+│           ├── login.html
+│           ├── signup.html
+│           ├── admin.html
+│       └── static/
+│           ├── css/
+│               └── styles.css
+│           ├── js/
+│               └── script.js
+└── pom.xml (Maven dependencies for Java)
